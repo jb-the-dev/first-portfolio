@@ -46,13 +46,17 @@ p {
 }
 
 /*centers the Intro text*/
-body > p {
+main > p {
   text-align: center;
 }
 
 ul, ol, li, a {
   font-family: 'Oxygen', sans-serif;
   color: peachpuff;
+}
+
+ol {
+font-size: 18px;
 }
 
 footer {
@@ -72,7 +76,15 @@ hr {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 30%;
+  border-radius: 20%;
+}
+
+.map-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
   border-radius: 20%;
 }
 
